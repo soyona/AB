@@ -21,16 +21,16 @@ Current Stage:
 Problem
 
 Current Artifact:
-None
+docs/problem/ProblemDefinition_CORE_v1.md
 
 Stage Status:
-READY
+BLOCKED
 
 Execution State:
-ACTIVE
+LOCKED
 
 Next Action:
-Create ProblemDefinition_CORE_v1.md
+Resolve the registered product-development governance profile and Runtime Findings Registry path
 
 Allowed Transition:
 None
@@ -46,22 +46,27 @@ Required Artifacts:
 - docs/protocol/SAPDP.md
 - docs/protocol/SAPDP_SOURCE_VERSION.md
 - templates/problem/ProblemDefinition_Template.md
+- docs/problem/ProblemDefinition_CORE_v1.md
 
 Required Commits:
 
 - Bootstrap commit with PROJECT_STATE.md
+- Problem Definition commit: https://github.com/soyona/AB/commit/441b84fa90524408e7b5f4f3d0aa7243549b0558
 
 Last Verified Commit:
-https://github.com/soyona/AB/commit/76471980e95b75b519679da43d06c382e30abce5
+https://github.com/soyona/AB/commit/441b84fa90524408e7b5f4f3d0aa7243549b0558
 
 Blocked Reason:
-None
+BLOCKED AUTHORITY_DEPENDENCY_INVALID: the v6.0.0 protocol snapshot does not
+resolve a registered product-development governance profile or Runtime Findings
+Registry path, so a conforming Problem Execution Closure Artifact cannot be
+created.
 
 Updated By:
 Codex
 
 Updated At:
-2026-06-29T03:40:01Z
+2026-06-29T04:32:13Z
 
 ## Authority
 
