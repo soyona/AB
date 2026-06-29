@@ -14,6 +14,12 @@
 | SAPDP Source Version | Protocol Version Record | `docs/protocol/SAPDP_SOURCE_VERSION.md` | Created |
 | Authority Digest | Protocol Digest Record | `docs/protocol/AUTHORITY_DIGEST` | Created |
 
+## Problem Artifacts
+
+| Artifact | Type | Path | Status |
+|---|---|---|---|
+| Problem Definition v1.1 | Problem Definition | `docs/problem/ProblemDefinition_CORE_v1.md` | Frozen |
+
 ## Protocol Version Visibility
 
 Detected Protocol Version: v6.0.0
